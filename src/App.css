@@ -1,0 +1,58 @@
+main {
+  width: 360px;
+  border: 2px solid black;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 20px;
+}
+.tracker {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.input {
+    display: flex;
+    flex-direction: column;
+    width: 140px;
+}
+
+#date, #distance {
+    border-radius: 5px;    
+}
+
+.btnForm {
+    width: 50px;
+    border-radius: 5px;
+    cursor: pointer;    
+}
+
+.history {
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 5px;
+    height: 20px;
+}
+.records_list{
+    border: 1px solid black;
+    width: 318px;
+    border-radius: 10px;
+    list-style: none;
+    min-height: 30px;
+}
+
+.record{
+    display: flex;
+    justify-content: space-between;
+    margin-left: -40px;
+    padding: 10px;
+}
+
+.btnRec {
+    border: none;
+    background-color: white;
+    cursor: pointer;    
+}
